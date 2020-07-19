@@ -14,7 +14,7 @@
 ## TL; DR
 
 ```
-local $ git clone 
+local $ git clone https://github.com/gkzz/socialfish-tf.git 
 local $ terraform init
 
 ## Edit terraform.tfvars
