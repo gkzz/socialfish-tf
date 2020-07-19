@@ -23,9 +23,6 @@ local $ terraform apply
 
 ec2 $ . init.sh
 
-## Execute "sudo shutdown -r now", if you'd like to change hostname
-# ec2 $ sudo shutdown -r now
-
 ec2 $ python3 SocialFish.py youruser yourpassword
 ```
 
