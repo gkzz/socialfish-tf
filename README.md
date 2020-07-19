@@ -2,7 +2,7 @@
 
 <img src="/docs/img/socialfish_demo.png" alt="socialfish_demo" style="max-width:5%;">
 
-Special Thanks to
+## Special Thanks to
 
 - [UndeadSec/SocialFish](https://github.com/UndeadSec/SocialFish)
 
