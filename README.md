@@ -45,8 +45,7 @@ ubuntu@web:~/SocialFish$
 
 ## Notes
 
-- Display directory tree
-  - on local
+- Display directory tree on local
 ```
 local $ tree -I docs
 .
@@ -67,7 +66,7 @@ local $ tree -I docs
 0 directories, 13 files
 ```
 
-  - on Amazon EC2
+- on Amazon EC2
 ```
 ubuntu@web:~$ tree -L 2
 .
@@ -90,8 +89,7 @@ ubuntu@web:~$
 ```
 
 
-- Check AMI ID
-  - of ubuntu18.04
+- Check AMI ID of ubuntu18.04
 ```
 local $ bash describe_images.sh -u
 get ami id of ubuntu18.04
@@ -143,7 +141,7 @@ get ami id of ubuntu18.04
 local $
 ```
 
-  - of Amazon Linux2
+ - of Amazon Linux2
 ```
 local $ describe_images.sh -l
 get ami id of amazon linux2
