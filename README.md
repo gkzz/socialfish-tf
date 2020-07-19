@@ -4,6 +4,8 @@
 
 Special Thanks to
 
+- [ハッカーの技術書 | 黒林檎, 村島 正浩 |本 | 通販 | Amazon](https://www.amazon.co.jp/dp/4781702422)
+
 - [UndeadSec/SocialFish](https://github.com/UndeadSec/SocialFish)
 
 - [Getting latest Ubuntu AMI with Terraform](https://www.andreagrandi.it/2017/08/25/getting-latest-ubuntu-ami-with-terraform/)
