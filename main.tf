@@ -29,6 +29,17 @@ resource "aws_instance" "web" {
   instance_type = "t2.micro" 
   key_name = var.ssh_key_name
   user_data = file("user_data.sh")
+  
+
+  # Ref
+  # How to set hostname with cloud-init and Terraform?
+  # https://stackoverflow.com/questions/54327541/how-to-set-hostname-with-cloud-init-and-terraform
+  #provisioner "remote-exec" {
+  #  inline = [
+  #    "sudo hostnamectl set-hostname web"
+  #  ]
+  #}
+
   tags = {
     "key" = "web"
   }

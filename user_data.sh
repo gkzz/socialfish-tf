@@ -1,11 +1,6 @@
 #!/bin/bash
 cat <<- EOF > /home/ubuntu/init.sh
 #!/bin/bash
-EC2_HOSTNAME="web" \
-&& sudo sed \
--i -e 's|127.0.0.1 localhost|127.0.0.1 localhost '"${EC2_HOSTNAME}"'|' \
-/etc/hosts \
-&& sudo hostnamectl set-hostname ${EC2_HOSTNAME}
 
 # Ref
 # Setting Up SocialFish · UndeadSec/SocialFish Wiki
@@ -22,3 +17,9 @@ EOF
 
 sudo chmod 755 /home/ubuntu/init.sh
 sudo chown ubuntu:ubuntu /home/ubuntu/init.sh
+
+EC2_HOSTNAME="web" \
+&& sudo sed \
+-i -e 's|127.0.0.1 localhost|127.0.0.1 localhost '"${EC2_HOSTNAME}"'|' \
+/etc/hosts \
+&& sudo hostnamectl set-hostname ${EC2_HOSTNAME}
